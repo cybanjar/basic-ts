@@ -1,0 +1,16 @@
+{
+  "name": "basic-ts",
+  "version": "1.0.0",
+  "description": "basic ts",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/modules/Products.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3",
+    "nodemon": "^1.19.2"
+  }
+}
